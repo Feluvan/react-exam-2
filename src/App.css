@@ -5,17 +5,88 @@
   width: 220px;
   height: 100vh;
 
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-right: 1px solid #eee;
+
   padding: 24px 16px;
+}
+
+.logo6767 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-label {
+  color: #aaa;
+  font-size: 11px;
+  margin: 14px 4px 8px;
 }
 
 .left-nav ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.left-nav a {
-  display: block;
+.left-nav li {
+  margin-bottom: 4px;
+}
 
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #555;
   text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background: #f4f6fb;
+}
+
+.nav-link.active {
+  background: #cfe6f8;
+  color: #1c6ba0;
+  font-weight: 600;
+}
+
+.nav-arrow {
+  margin-left: auto;
+  font-size: 10px;
+  color: #999;
+}
+
+.nav-promo {
+  margin-top: auto;
+  background: #b9bfc8;
+  border-radius: 14px;
+  padding: 16px;
+  text-align: center;
+}
+
+.nav-promo p {
+  color: #fff;
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+
+.nav-promo button {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 0;
+  background: #fff;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .App {

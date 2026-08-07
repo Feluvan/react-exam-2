@@ -4,10 +4,23 @@ import Teachers from "./pages/teachers/Teachers";
 import Students from "./pages/students/Students";
 import Attendance from "./pages/attendance/Attendance";
 
-import { TbChalkboard } from "react-icons/tb";
-import { Link } from "react-router-dom";
 import "./App.css";
 import { IoMdSchool } from "react-icons/io";
+import {
+  FaHome,
+  FaChalkboardTeacher,
+  FaUserGraduate,
+  FaClipboardCheck,
+  FaDollarSign,
+  FaRegStickyNote,
+  FaRegCalendarAlt,
+  FaBook,
+  FaRegCommentDots,
+  FaRegUserCircle,
+  FaCog,
+  FaSignOutAlt,
+  FaChevronRight,
+} from "react-icons/fa";
 
 function App() {
   return (
@@ -22,23 +35,81 @@ function App() {
       <div className="left-nav">
         <div className="logo6767">
           <IoMdSchool />
-          <h1>school hub</h1>
+          <h1>SchoolHub</h1>
         </div>
+
+        <p className="nav-label">MENU</p>
         <ul>
           <li>
-            <Link to="/dashboard">Dashboard</Link>
+            <NavLink to="/dashboard" className="nav-link">
+              <FaHome /> Dashboard
+            </NavLink>
           </li>
           <li>
-            <Link to="/teachers">Teachers</Link>
+            <NavLink to="/teachers" className="nav-link">
+              <FaChalkboardTeacher /> Teachers
+            </NavLink>
           </li>
           <li>
-            <Link to="/students">Students</Link>
+            <NavLink to="/students" className="nav-link">
+              <FaUserGraduate /> Students
+            </NavLink>
           </li>
           <li>
-            <Link to="/attendance">Attendance</Link>
+            <NavLink to="/attendance" className="nav-link">
+              <FaClipboardCheck /> Attendance
+            </NavLink>
+          </li>
+          <li>
+            <span className="nav-link">
+              <FaDollarSign /> Finance <FaChevronRight className="nav-arrow" />
+            </span>
+          </li>
+          <li>
+            <span className="nav-link">
+              <FaRegStickyNote /> Notice
+            </span>
+          </li>
+          <li>
+            <span className="nav-link">
+              <FaRegCalendarAlt /> Calendar
+            </span>
+          </li>
+          <li>
+            <span className="nav-link">
+              <FaBook /> Library
+            </span>
+          </li>
+          <li>
+            <span className="nav-link">
+              <FaRegCommentDots /> Message
+            </span>
           </li>
         </ul>
-        <p></p>
+
+        <p className="nav-label">OTHER</p>
+        <ul>
+          <li>
+            <span className="nav-link">
+              <FaRegUserCircle /> Profile
+            </span>
+          </li>
+          <li>
+            <span className="nav-link">
+              <FaCog /> Setting
+            </span>
+          </li>
+          <li>
+            <span className="nav-link">
+              <FaSignOutAlt /> Log out
+            </span>
+          </li>
+        </ul>
+
+        <div className="nav-promo">
+          <p>Let's Manage Your Data Better in Your Hand</p>
+          <button>Download the App</button>
+        </div>
       </div>
     </div>
   );

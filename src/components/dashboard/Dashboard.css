@@ -191,7 +191,6 @@
   gap: 6px;
 }
 
-/* stat cards */
 .stat-cards-col {
   display: flex;
   flex-direction: column;
@@ -238,7 +237,6 @@
   border-radius: 8px;
 }
 
-/* activity row: student activity / notice board / recent activity */
 .activity-row {
   display: grid;
   grid-template-columns: 1fr 1.2fr 1fr;
