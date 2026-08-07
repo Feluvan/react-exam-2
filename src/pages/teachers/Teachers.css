@@ -1,0 +1,56 @@
+.dashboard-content676767 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.dashboard-content676767 h1 {
+  margin: 0;
+}
+
+.dashboard-content676767 .search {
+  margin-left: auto;
+}
+
+.all-teacher {
+  border: 1px solid;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 12px;
+  font-size: 13px;
+
+
+}
+
+td {
+  padding: 12px;
+  font-size: 13px;
+  border-bottom: 1px solid ;
+}
+
+.teacher-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.teacher-name img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.teacher-name p {
+  margin: 0;
+}
