@@ -6,32 +6,16 @@
   height: 100vh;
 
   padding: 24px 16px;
-  box-sizing: border-box;
-  border-right: 1px solid;
-}
-
-.left-nav h1 {
-  font-size: 20px;
-  margin: 0 0 30px;
-  text-transform: capitalize;
 }
 
 .left-nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
 }
 
 .left-nav a {
   display: block;
-  padding: 10px 14px;
-  border-radius: 8px;
 
   text-decoration: none;
-  font-size: 14px;
 }
 
 .App {

@@ -237,11 +237,7 @@ export default function Attendance() {
             </tr>
           </tbody>
         </table>
-        <div className="attendance-pagination">
-          <button>Previous</button>
-          <p>1 2 3 4 ... 17</p>
-          <button>Next</button>
-        </div>
+        
       </div>
     </div>
   );
