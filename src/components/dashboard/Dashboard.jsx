@@ -74,24 +74,24 @@ function Dashboard() {
                   <GroupsRoundedIcon />
                 </div>
               </div>
-              <div className="legend-row">
-                <div className="legend-item">
+              <div className="colors">
+                <div className="color">
                   <span
-                    className="legend-dot"
+                    className="dot"
                     style={{ background: "#8ecdf0" }}
                   />
                   <div>
-                    <strong>45.414</strong>
+                    <b>45.414</b>
                     <p>Boys (47%)</p>
                   </div>
                 </div>
-                <div className="legend-item">
+                <div className="color">
                   <span
-                    className="legend-dot"
+                    className="dot"
                     style={{ background: "#f6c945" }}
                   />
                   <div>
-                    <strong>40.270</strong>
+                    <b>40.270</b>
                     <p>Girls (53%)</p>
                   </div>
                 </div>
@@ -110,17 +110,17 @@ function Dashboard() {
                   </button>
                 </div>
               </div>
-              <div className="chart-legend-inline">
+              <div className="top-colors">
                 <span>
                   <span
-                    className="legend-dot"
+                    className="dot"
                     style={{ background: "#f6c945" }}
                   />
                   Total Present
                 </span>
                 <span>
                   <span
-                    className="legend-dot"
+                    className="dot"
                     style={{ background: "#8ecdf0" }}
                   />
                   Total Absent
@@ -149,17 +149,17 @@ function Dashboard() {
             <div className="chart-card earnings-card">
               <div className="chart-card-header">
                 <h3>Earnings</h3>
-                <div className="chart-legend-inline">
+                <div className="top-colors">
                   <span>
                     <span
-                      className="legend-dot"
+                      className="dot"
                       style={{ background: "#8ecdf0" }}
                     />
                     Income
                   </span>
                   <span>
                     <span
-                      className="legend-dot"
+                      className="dot"
                       style={{ background: "#c7b6f5" }}
                     />
                     Expense
@@ -251,7 +251,7 @@ function Dashboard() {
                     <FaRobot />
                   </span>
                   <div>
-                    <strong>Regional Robotics Champion</strong>
+                    <b>Regional Robotics Champion</b>
                     <p>Winning robots triumph in engineering challenge</p>
                     <span className="activity-time">2 days ago</span>
                   </div>
@@ -261,7 +261,7 @@ function Dashboard() {
                     <FaTrophy />
                   </span>
                   <div>
-                    <strong>Won Regional Debate Competition</strong>
+                    <b>Won Regional Debate Competition</b>
                     <p>Debate team's compelling arguments reach national stage</p>
                     <span className="activity-time">10 hours ago</span>
                   </div>
@@ -271,7 +271,7 @@ function Dashboard() {
                     <FaThumbsUp />
                   </span>
                   <div>
-                    <strong>2nd Place at Science State Fair</strong>
+                    <b>2nd Place at Science State Fair</b>
                     <p>Science Club claims silver at science showcase</p>
                     <span className="activity-time">3 weeks ago</span>
                   </div>
@@ -287,7 +287,7 @@ function Dashboard() {
               <div className="notice-list">
                 <div className="notice-item">
                   <span className="notice-thumb" />
-                  <strong className="notice-title">Math Olympiad Competition</strong>
+                  <b className="notice-title">Math Olympiad Competition</b>
                   <span className="notice-date">04/18/2030</span>
                   <span className="notice-by">By Ms. Jackson (Math Teacher)</span>
                   <span className="notice-views">
@@ -296,7 +296,7 @@ function Dashboard() {
                 </div>
                 <div className="notice-item">
                   <span className="notice-thumb" />
-                  <strong className="notice-title">Yearbook Photo Submissions Wanted</strong>
+                  <b className="notice-title">Yearbook Photo Submissions Wanted</b>
                   <span className="notice-date">04/15/2030</span>
                   <span className="notice-by">By Yearbook Committee</span>
                   <span className="notice-views">
@@ -305,7 +305,7 @@ function Dashboard() {
                 </div>
                 <div className="notice-item">
                   <span className="notice-thumb" />
-                  <strong className="notice-title">Reminder: School Play Auditions This Week</strong>
+                  <b className="notice-title">Reminder: School Play Auditions This Week</b>
                   <span className="notice-date">04/12/2030</span>
                   <span className="notice-by">By Mr. Rodriguez (Drama Teacher)</span>
                   <span className="notice-views">
@@ -314,7 +314,7 @@ function Dashboard() {
                 </div>
                 <div className="notice-item">
                   <span className="notice-thumb" />
-                  <strong className="notice-title">Lost and Found Overflowing!</strong>
+                  <b className="notice-title">Lost and Found Overflowing!</b>
                   <span className="notice-date">04/10/2030</span>
                   <span className="notice-by">By School Administration</span>
                   <span className="notice-views">
@@ -323,7 +323,7 @@ function Dashboard() {
                 </div>
                 <div className="notice-item">
                   <span className="notice-thumb" />
-                  <strong className="notice-title">Important Update: School Uniform Policy</strong>
+                  <b className="notice-title">Important Update: School Uniform Policy</b>
                   <span className="notice-date">04/09/2030</span>
                   <span className="notice-by">By Principal Smith</span>
                   <span className="notice-views">
@@ -422,21 +422,21 @@ function Dashboard() {
                 <div className="agenda-item" style={{ background: "#ece5ff" }}>
                   <span className="agenda-time">08:00 am</span>
                   <div>
-                    <strong>All Grade</strong>
+                    <b>All Grade</b>
                     <p>Homeroom & Announcement</p>
                   </div>
                 </div>
                 <div className="agenda-item" style={{ background: "#fff3d6" }}>
                   <span className="agenda-time">10:00 am</span>
                   <div>
-                    <strong>Grade 3-5</strong>
+                    <b>Grade 3-5</b>
                     <p>Math Review & Practice</p>
                   </div>
                 </div>
                 <div className="agenda-item" style={{ background: "#dcf0ff" }}>
                   <span className="agenda-time">10:30 am</span>
                   <div>
-                    <strong>Grade 6-8</strong>
+                    <b>Grade 6-8</b>
                     <p>Science Experiment & Discussion</p>
                   </div>
                 </div>

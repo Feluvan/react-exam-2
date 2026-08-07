@@ -128,31 +128,31 @@
   color: #7c6ae0;
 }
 
-.legend-row {
+.colors {
   display: flex;
   justify-content: center;
   gap: 30px;
   margin-top: 10px;
 }
 
-.legend-item {
+.color {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.legend-item strong {
+.color b {
   display: block;
   font-size: 14px;
 }
 
-.legend-item p {
+.color p {
   margin: 0;
   font-size: 12px;
   color: #999;
 }
 
-.legend-dot {
+.dot {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -177,7 +177,7 @@
   cursor: pointer;
 }
 
-.chart-legend-inline {
+.top-colors {
   display: flex;
   gap: 16px;
   font-size: 12px;
@@ -185,7 +185,7 @@
   margin-bottom: 8px;
 }
 
-.chart-legend-inline span {
+.top-colors span {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -268,7 +268,7 @@
   font-size: 14px;
 }
 
-.activity-item strong {
+.activity-item b {
   display: block;
   font-size: 13px;
 }
@@ -443,7 +443,7 @@
   white-space: nowrap;
 }
 
-.agenda-item strong {
+.agenda-item b {
   display: block;
   font-size: 13px;
 }
