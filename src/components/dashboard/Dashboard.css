@@ -155,18 +155,29 @@
   margin: 10px 0;
 }
 
-.calendar-content img {
+.messages-content {
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.messages-content > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.messages-content img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
 
-.calendar-content h3 {
+.messages-content h3 {
   margin: 0;
 }
 
-.calendar-content p {
+.messages-content p {
   margin: 0;
   font-size: 13px;
-
 }

@@ -99,6 +99,7 @@ function Dashboard() {
         </div>
       </div>
       <div className="dashboard-content6">
+        <h1>Recent Activity</h1>
         <div className="dashboard-content5">
           <img src={profile} alt="Profile" />
           <p>Ms. Johnson assigned new English Literature homework</p>
@@ -151,7 +152,8 @@ function Dashboard() {
           <img src={agenda} alt="Agenda" />
         </div>
       </div>
-      <div className="calendar-content">
+      <div className="messages-content">
+        <h1>Messages</h1>
         <div>
           <img src={profile} alt="" />
           <h3>Dr. Lila Ramirez</h3>
