@@ -48,16 +48,6 @@
   cursor: pointer;
 }
 
-.nav-link:hover {
-  background: #f4f6fb;
-}
-
-.nav-link.active {
-  background: #cfe6f8;
-  color: #1c6ba0;
-  font-weight: 600;
-}
-
 .nav-arrow {
   margin-left: auto;
   font-size: 10px;
@@ -84,9 +74,7 @@
   border-radius: 20px;
   padding: 8px 0;
   background: #fff;
-  color: #333;
-  font-size: 12px;
-  cursor: pointer;
+  
 }
 
 .App {
