@@ -3,11 +3,11 @@ import { TbMessagesFilled } from "react-icons/tb";
 import { FaBell } from "react-icons/fa";
 import profileimg from "../../assets/Profile Picture.png";
 import "./Attendance.css";
-import row from "../../assets/row.png";
-import row1 from "../../assets/row1.png";
+import row from "../../assets/Row.png";
+import row1 from "../../assets/Row1.png";
 import gitara from "../../assets/Rectangle 3.png";
 import profile from "../../assets/Profile Picture (1).png";
-import agenda from "../../assets/agenda.png";
+import agenda from "../../assets/Agenda.png";
 export default function Attendance() {
   return (
     <div>
