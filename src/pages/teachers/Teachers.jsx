@@ -12,7 +12,7 @@ import profile from "../../assets/Profile Picture (1).png";
   return (
     <div>
       <div className="dashboard">
-        <input className="search" type="text" placeholder="Search" />
+        <input className="search" type="text" placeholder="🔍Search" />
         <button className="message">
           <TbMessagesFilled />
         </button>
